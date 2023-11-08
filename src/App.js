@@ -1,39 +1,29 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import {
   ChakraProvider,
   Box,
-  Text,
-  Link,
-  VStack,
-  Code,
   Grid,
   theme,
 } from '@chakra-ui/react';
-import Navbar from './components/navbar/Navbar.jsx';
+
+import Navbar from './components/navbar/Navbar';
+import Main from './pages/Main';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <Navbar />
-          <VStack spacing={8}>
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
-      </Box>
-    </ChakraProvider>
+    <Router>
+      <ChakraProvider theme={theme}>
+        <Box textAlign="center" fontSize="xl">
+          <Grid minH={"100vh"} p={0}>
+            <Navbar />
+            <Main />
+            <Footer />
+          </Grid>
+        </Box>
+      </ChakraProvider>
+    </Router>
   );
 }
 
