@@ -98,7 +98,7 @@ const Navbar = () => {
                     <div>
                       <MenuItem key={button.path} as={NavButton} path={button.path}>{button.name}</MenuItem>
                       <br spacing={4}/>
-                      {index != arr.length - 1 && <hr/>}
+                      {index !== arr.length - 1 && <hr/>}
                     </div>
                   ))}
                 </MenuList>
