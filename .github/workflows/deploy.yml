@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main  # replace with your default branch if not "main"
-      - deployment-test # remove after testing
 
 jobs:
   build-and-deploy:
