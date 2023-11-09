@@ -1,26 +1,31 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
   ChakraProvider,
   Box,
-  Grid,
+  Spacer,
   theme,
 } from '@chakra-ui/react';
 
 import Navbar from './components/navbar/Navbar';
-import Main from './pages/Main';
+import Home from './pages/Home';
+import About from './pages/About';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <ChakraProvider theme={theme}>
-        <Box textAlign="center" fontSize="xl">
-          <Grid minH={"100vh"} p={0}>
-            <Navbar />
-            <Main />
-            <Footer />
-          </Grid>
+        <Box textAlign="center" fontSize="xl" display="flex" flexDirection="column" minHeight="100vh">
+          <Navbar />
+          <Spacer />
+          <Box flex="1">
+            <Routes>
+              <Route exact path="/" element={<Home />}/>
+              <Route path="/about" element={<About />}/>
+            </Routes>
+          </Box>
+          <Footer />
         </Box>
       </ChakraProvider>
     </Router>

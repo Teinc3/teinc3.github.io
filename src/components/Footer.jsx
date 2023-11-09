@@ -3,6 +3,7 @@ import {
   chakra,
   Container,
   Stack,
+  VStack,
   Text,
   useColorModeValue,
   VisuallyHidden,
@@ -49,10 +50,10 @@ export default function Footer() {
         spacing={4}
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
-        <Stack direction="column" spacing={0} textAlign={"center"}>
+        <VStack spacing={0} textAlign={"center"}>
           <Text>Powered by React and Chakra-UI</Text>
           <Text>All rights reserved © 2023 Teinc3.</Text>
-        </Stack>
+        </VStack>
         <Stack direction={'row'} spacing={6}>
           <SocialButton label={'Reddit'} href={'https://www.reddit.com/user/teinc3'}>
             <FaReddit />

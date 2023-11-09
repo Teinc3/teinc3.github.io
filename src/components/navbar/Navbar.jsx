@@ -68,7 +68,7 @@ const Navbar = () => {
     <div>
       <Box ref={barRef} bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <Stack direction="row" spacing={3}>
+          <Stack direction="row" spacing={3} align="center">
             <Logo h={(barRef.current?.offsetHeight ?? 0) * 0.75 + "px"} pointerEvents="none" />
             <Spacer ref={spacerRef} />
             {buttons.filter((_, i) => i < visibleButtons).map(button => (
@@ -95,8 +95,8 @@ const Navbar = () => {
                 <MenuButton as={Button} rightIcon={<RiMenuAddLine />} variant="ghost"/>
                 <MenuList>
                   {buttons.slice(visibleButtons).map((button, index, arr) => (
-                    <div>
-                      <MenuItem key={button.path} as={NavButton} path={button.path}>{button.name}</MenuItem>
+                    <div key={button.path}>
+                      <MenuItem as={NavButton} path={button.path}>{button.name}</MenuItem>
                       <br spacing={4}/>
                       {index !== arr.length - 1 && <hr/>}
                     </div>

@@ -1,6 +1,6 @@
 import { VStack, Text, Link, Code } from "@chakra-ui/react"
 
-const Main = () => {
+const Home = () => {
   return (
     <VStack spacing={8}>
       <Text>
@@ -19,4 +19,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Home

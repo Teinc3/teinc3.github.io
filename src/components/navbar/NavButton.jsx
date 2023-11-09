@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, useColorModeValue } from '@chakra-ui/react';
+import { Box, Button, useColorModeValue } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
 
 export const NavButton = React.forwardRef((props, ref) => {
@@ -17,13 +17,29 @@ export const NavButton = React.forwardRef((props, ref) => {
       px={2}
       py={1}
       rounded={'md'}
+      position="relative"
       _hover={{
         textDecoration: 'none',
         bg: useColorModeValue('gray.200', 'gray.700'),
-        // Possibly start an animation here and remove the bg change
+        '& > span': {
+          w: "100%",
+          left: "0",
+          transition: "all 0.5s",
+        },
       }}
-      onClick={handleClick}>
+      onClick={handleClick}
+    >
       {children}
+      <Box
+        as="span"
+        position="absolute"
+        bottom="0"
+        left="50%"
+        w="0"
+        h="2px"
+        bg="currentcolor"
+        transition="all 0.5s"
+      />
     </Button>
   )
 });
