@@ -2,24 +2,19 @@ import React, { useState, useEffect, useRef } from 'react';
 
 import {
   Box,
-  Button,
   Flex,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
   useColorModeValue,
   Stack,
   Spacer,
 } from '@chakra-ui/react'
-import { RiMenuAddLine } from 'react-icons/ri';
 
 import Measure from 'react-measure';
 
 import ColorModeSwitcher from './ColorModeSwitcher'
 import { Logo } from '../logo/Logo';
 import { NavButton } from './NavButton';
-import Login from './Login';
+
+import ExtraNavButtonHolder from './ExtraNavButtonHolder';
 
 const buttons = [
   { name: 'Home', path: '/' },
@@ -69,7 +64,7 @@ const Navbar = () => {
       <Box ref={barRef} bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Stack direction="row" spacing={3} align="center">
-            <Logo h={(barRef.current?.offsetHeight ?? 0) * 0.75 + "px"} pointerEvents="none" />
+            <Logo h={(barRef.current?.offsetHeight ?? 0) * 0.75 + "px"} pointerEvents="none" useanimation="true" />
             <Spacer ref={spacerRef} />
             {buttons.filter((_, i) => i < visibleButtons).map(button => (
               <Measure
@@ -91,24 +86,19 @@ const Navbar = () => {
               </Measure>
             ))}
             {visibleButtons < buttons.length && (
-              <Menu spacing={4}>
-                <MenuButton as={Button} rightIcon={<RiMenuAddLine />} variant="ghost"/>
-                <MenuList>
-                  {buttons.slice(visibleButtons).map((button, index, arr) => (
+              <ExtraNavButtonHolder>
+                {buttons.slice(visibleButtons).map(button => (
                     <div key={button.path}>
-                      <MenuItem as={NavButton} path={button.path}>{button.name}</MenuItem>
-                      <br spacing={4}/>
-                      {index !== arr.length - 1 && <hr/>}
+                      <NavButton path={button.path}>{button.name}</NavButton>
                     </div>
-                  ))}
-                </MenuList>
-              </Menu>
+                ))}
+              </ExtraNavButtonHolder>
             )}
           </Stack>
           <Flex ref={rightRef} alignItems={'center'}>
             <Stack direction={'row'} spacing={7}>
               <ColorModeSwitcher justifySelf="flex-end" />
-              <Login />
+              {/*Search*/}
             </Stack>
           </Flex>
         </Flex>

@@ -10,9 +10,10 @@ const spin = keyframes`
 `;
 
 export const Logo = props => {
+  const { useanimation } = props;
   const prefersReducedMotion = usePrefersReducedMotion();
 
-  const animation = prefersReducedMotion
+  const animation = useanimation === "false" || prefersReducedMotion
     ? undefined
     : `${spin} infinite 10s ease-in-out`;
 
