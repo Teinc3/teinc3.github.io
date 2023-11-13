@@ -6,38 +6,12 @@ At the time of writing, I'm 18 years old from Hong Kong, but I plan to study abr
 
 There is a common misconception that I am a nerd. I'd like to clarify that I am not one and in fact I hate nerds. I would describe myself as more of a poorjar, or a noob person, whatever you call it.
 
-## CV
-This is an excerpt from my CV on my past academic performance. If you would like to see the full version, you can visit my LinkedIn profile.
-
-### Examinations and Test Scores
-
-#### 2022
-
-- International Advanced Level 2022 (IAL), 3A*
- - Mathematics: A*
- - Further Mathematics: A*
- - Physics: A*
-
-#### 2023
-
-- Hong Kong Diploma of Secondary Education 2023 (HKDSE), Best 5 32/35
- - Physics: 5**
- - Mathematics Core Part: 5**
- - Mathematics Extended Module Part 2, Algebra and Calculus: 5*
- - Chemistry: 5*
- - English Language: 5*
-- International English Language Testing System 2023 (IELTS), 8.0
- - Listening: 9.0
- - Reading: 8.5
- - Writing: 7.0
- - Speaking: 7.0
-
-I also use Whatsapp on a regular basis, but I am not willing to disclose my number to the public for privacy reasons.
-
-## My website
+## Website
 I built this site using React and Chakra UI as a learning experience. The source code is available on my [Github](https://github.com/Teinc3/teinc3.github.io) for your reference.
 
-## Games and communities
+Yes, I know that there are way better alternatives to Create-React-App, but I can't be bothered to do Vite. So I just stuck with React.
+
+## Games
 I love to play strategy games and get the most out of them, and I might join dedicated game communities if I like the game enough.
 
 Here are some game communities where I am active in:
@@ -45,7 +19,7 @@ Here are some game communities where I am active in:
 ### [Territorial.io](https://territorial.io)
 A minimalistic multiplayer game where you conquer the world by capturing territories from other players and bots.
 
-I was previously the top 1v1 player and the sole admin of the game's Discord server. I have extensive connections with the creator of the game, and I will be working as a freelancer for his third project soon.
+I was previously the top 1v1 player and the sole admin of the game's Discord server. I have extensive connections with the creator of the game, and I will be working as a freelancer for him soon.
 
 I had reverse-engineered the game's source code entirely and learnt JavaScript from scratch. I experimented with machine learning using spawn-picking scenarios and I also assisted in the development of a micro algorithm which is unbeatable by any human player.
 
@@ -138,8 +112,11 @@ These are the places I want to visit in the future:
 #### Miscellaneous
 - Train myself a female extra voice to catfish virgins online (Would be pretty fun ngl)
 
-## Contact Me
+## Contacts
 If you want to contact me, you can do so through the following channels:
+
 - Email: [teinc3@gmail.com](mailto:teinc3@gmail.com)
 - Discord: @teinc3
 - Telegram: [@Teinc3](https://t.me/Teinc3)
+
+I also use Whatsapp, but my number is not available to the public for privacy reasons.
