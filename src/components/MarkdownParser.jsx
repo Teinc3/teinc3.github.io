@@ -7,7 +7,7 @@ const MarkdownParser = ({ markdown }) => {
   const components = {
     ...ChakraUIRenderer(),
     h1: ({ children }) => <Heading as="h1" size="2xl">{children}</Heading>,
-    h2: ({ children }) => <><Heading as="h2" size="xl" marginTop="1.5em">{children}</Heading><hr/></>,
+    h2: ({ node, children }) => <Heading as="h2" id={node.children[0].value.toLowerCase().replace(/ /g, '-')} size="xl" marginTop="1.5em">{children}</Heading>,
     h3: ({ children }) => <Heading as="h3" size="lg" marginTop="1em">{children}</Heading>,
     h4: ({ children }) => <Heading as="h4" size="md" marginTop="1em" mb="0.5em">{children}</Heading>,
     ul: ({ children }) => <UnorderedList>{children}</UnorderedList>,

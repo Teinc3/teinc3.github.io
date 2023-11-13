@@ -14,7 +14,7 @@ const About = () => {
       .then((response) => response.text())
       .then((text) => setMarkdown(text));
   }, []);
-
+  
   return (
     <Flex direction={{ base: 'column', md: 'row' }}>
       <Box flex="1" m={10}>

@@ -34,15 +34,15 @@ const TableOfContents = ({ headings }) => {
   return (
     <Box>
       <VStack align="start" spacing={2}>
-        {headings && headings.map((heading) => (
-          <Link
-            href={`#${heading}`}
-            key={heading}
-            color={heading === activeHeading ? 'blue.500' : 'gray.500'}
-          >
-            {heading}
-          </Link>
-        ))}
+      {headings && headings.map((heading) => (
+        <Link
+          href={`#${heading.toLowerCase().replace(/ /g, '-')}`}
+          key={heading}
+          color={heading === activeHeading ? 'blue.500' : 'gray.500'}
+        >
+          {heading}
+        </Link>
+      ))}
       </VStack>
     </Box>
   );
