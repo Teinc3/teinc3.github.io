@@ -1,0 +1,86 @@
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  background-image: url("assets/wave_1.gif");
+}
+hr {
+  border-color: #404040;
+}
+#aContentBox {
+  width: 50%;
+  border: 3px solid #FFFFFF;
+  height: 100%;
+  background-color: #606060;
+  text-align: left;
+  margin: auto;
+}
+@media screen and (max-width: 1000px) {
+  #aContentBox {
+    width: 90%;
+  }
+}
+#aHeader {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#aResizedImage {
+  height: 94px; /* Adjust size as needed */
+  width: auto; /* This will maintain the aspect ratio */
+}
+#aContent {
+  padding: 5px 20px;
+  text-align: left;
+}
+#aLargeText1 {
+  font-size: 1.2em; /* Adjust size as needed */
+}
+#aLargeText2 {
+  font-size: 1.2em; /* Adjust size as needed */
+}
+#aLargeText3 {
+  font-size: 1.2em; /* Adjust size as needed */
+}
+#aContent h2 {
+  margin: 5px 0;
+  text-decoration: underline;
+  text-align: left;
+}
+#aEmoji1 {
+  vertical-align: middle;
+  height: 1em;
+}
+#aEmoji2 {
+  vertical-align: middle;
+  height: 1em;
+}
+#aEmoji3 {
+  vertical-align: middle;
+  height: 1em;
+}
+#aEmoji4 {
+  vertical-align: middle;
+  height: 1em;
+}
+#aContent hr {
+  margin: 20px 0;
+}
+#aContent > ol > li {
+  margin: 10px 0;
+}
+#aUnderlineTooltip1 {
+  text-decoration: underline;
+  cursor: help;
+}
+#aUnderlineTooltip2 {
+  text-decoration: underline;
+  cursor: help;
+}
+#aAlignCenter1 {
+  text-align: center;
+}
+#aAlignCenter2 {
+  text-align: center;
+}
