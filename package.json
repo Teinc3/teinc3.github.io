@@ -1,0 +1,17 @@
+{
+  "name": "teinc3.github.io",
+  "version": "1.0.0",
+  "description": "Script to build html4 pages from markdown files with templates",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Teinc3/teinc3.github.io.git"
+  },
+  "private": false,
+  "dependencies": {
+    "showdown": "^2.1.0"
+  }
+}
