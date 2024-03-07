@@ -1,15 +1,16 @@
 body {
   background-color: #FFFFFF;
   color: #000000;
-  background-image: url("assets/wave_1.gif");
+  background-image: url("wave_1.gif");
+  min-height: 100%;
 }
 hr {
   border-color: #404040;
 }
 #aContentBox {
-  width: 50%;
+  width: 60%;
   border: 3px solid #FFFFFF;
-  height: 100%;
+  min-height: 100%;
   background-color: #606060;
   text-align: left;
   margin: auto;
@@ -29,6 +30,23 @@ hr {
 #aResizedImage {
   height: 94px; /* Adjust size as needed */
   width: auto; /* This will maintain the aspect ratio */
+}
+#aContentContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  text-align: center;
+  min-height: 100%;
+}
+#aSidebar {
+  max-width: 25%;
+  min-height: 100vh;
+  background-color: #404040;
+  float: left;
+  text-align: center;
+  margin: 5px;
+  border: 5px ridge #303030;
+  padding: 20px;
 }
 #aContent {
   padding: 5px 20px;
@@ -80,6 +98,7 @@ hr {
 }
 #aAlignCenter1 {
   text-align: center;
+  min-height: 100%;
 }
 #aAlignCenter2 {
   text-align: center;
