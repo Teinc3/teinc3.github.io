@@ -8,8 +8,8 @@
 <body>
   <script>
     var path = window.location.pathname;
-    if (path.endsWith('/agenda') || path.endsWith('/blogs')) {
-      window.location.href = path + "/1";
+    if (path.endsWith('/agenda/') || path.endsWith('/blogs/')) {
+      window.location.href = path + "1";
     } else {
       window.location.href = "../";
     }
