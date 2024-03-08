@@ -26,6 +26,9 @@ fs.readdirSync(assetsPath).forEach((file) => {
     fs.copyFileSync(path.join(assetsPath, file), path.join(distAssetsPath, file));
 });
 
+// Copy 404.html to the dist directory
+fs.copyFileSync(path.join(__dirname, '../404.html'), path.join(__dirname, '../dist/404.html'));
+
 // Quit the process with exit code 0 once the build is done
 console.log('Static build completed.')
 process.exit(0);
