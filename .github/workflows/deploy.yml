@@ -35,7 +35,7 @@ jobs:
         run: npm start
       
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
           name: github-pages
           path: dist
@@ -52,5 +52,5 @@ jobs:
     steps:
       - name: Deploy to Github Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v3
       
