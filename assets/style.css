@@ -50,7 +50,6 @@ hr {
   text-align: center;
   height: 100%;
   flex-grow: 1;
-  margin-top: 5px;
 }
 #aSidebar {
   background-color: #404040;
@@ -59,6 +58,10 @@ hr {
   border: 5px ridge #303030;
   padding: 20px;
   flex-grow: 1;
+}
+#aSidebar > ul {
+  text-align: justify;
+  padding-left: 20px;
 }
 #aContent {
   padding: 5px 20px;

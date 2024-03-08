@@ -6,38 +6,68 @@
   <link rel="icon" type="image/favicon" href="/assets/favicon.ico">
 </head>
 <body>
-<div id="aAlignCenter1">
-  <div>
-    <img src="/assets/poorzar.gif" alt="Teinc3===Poorzar" />
-  </div>
-  <div id="aContentBox">
-    <div id="aHeader">
-      <img id="aResizedImage" src="https://media1.tenor.com/m/5QoiTpwS1iEAAAAC/wheelchair-fall.gif" alt="Wheelchair_Falling_Down_Gif">
-      <div>
-        <h1><abbr title="This page is definitely not inspired by somebody else">Teinc3's Homepage</abbr></h1>
-      </div>
-      <a href="https://youareanidiot.cc">
-        <img src="/assets/youareanidiot.gif" alt="You_are_an_idiot!" />
-      </a>
-    </div>
+  <div id="aAlignCenter1">
     <div>
+      <img src="/assets/poorzar.gif" alt="Teinc3===Poorzar" />
+    </div>
+    <div id="aContentBox">
+      <div id="aHeader">
+        <img id="aResizedImage" src="https://media1.tenor.com/m/5QoiTpwS1iEAAAAC/wheelchair-fall.gif" alt="Wheelchair_Falling_Down_Gif">
+        <div>
+          <h1><abbr title="This page is definitely not inspired by somebody else">Teinc3's Homepage</abbr></h1>
+        </div>
+        <a href="https://youareanidiot.cc">
+          <img src="/assets/youareanidiot.gif" alt="You_are_an_idiot!" />
+        </a>
+      </div>
+      <div>
+        <hr>
+      </div>
+      <div id="aContentContainer">
+        <div id="aSidebar">
+          <h2>Site Map</h2><hr>
+          <h3><a href="/">Home</a></h3><hr>
+          <h3><a href="/agenda">Daily Agenda</a></h3><hr>
+          <h3><a href="/books">Book List</a></h3><hr>
+          <h3><a href="/blogs">Blogs</a></h3><hr>
+          <h2>Navigation</h2><hr>
+          <!--Hashes here-->
+        </div>
+        <div id="aContent">
+          <!--ROOT-->
+        </div>
+      </div>
       <hr>
+      <p id="aAlignCenter2">Powered by simple HTML4 and JavaScript</p>
     </div>
-    <div id="aContentContainer">
-      <div id="aSidebar">
-        <h2>Navigation</h2><hr>
-        <h3><a href="/">Home</a></h3><hr>
-        <h3><a href="/agenda">Daily Agenda</a></h3><hr>
-        <h3><a href="/books">Book List</a></h3><hr>
-        <h3><a href="/blogs">Blogs</a></h3><hr>
-      </div>
-      <div id="aContent">
-        <!--ROOT-->
-      </div>
-    </div>
-    <hr>
-    <p id="aAlignCenter2">Powered by simple HTML4 and JavaScript</p>
   </div>
-</div>
+  <script type="text/javascript">
+    var headers = document.getElementById('aContent').getElementsByTagName('h2');
+    var h3s = document.getElementById('aContent').getElementsByTagName('h3');
+    var sidebar = document.getElementById('aSidebar');
+    var ul;
+    var i;
+    for (i = 0; i < headers.length; i++) {
+      var h3 = document.createElement('h3');
+      var link = document.createElement('a');
+      link.href = '#' + headers[i].id;
+      link.appendChild(document.createTextNode(headers[i].textContent));
+      h3.appendChild(link);
+      if (i !== 0) {
+        sidebar.appendChild(document.createElement('hr'));
+      }
+      sidebar.appendChild(h3);
+      ul = document.createElement('ul');
+      sidebar.appendChild(ul);
+    }
+    for (i = 0; i < h3s.length; i++) {
+      var li = document.createElement('li');
+      var link = document.createElement('a');
+      link.href = '#' + h3s[i].id;
+      link.appendChild(document.createTextNode(h3s[i].textContent));
+      li.appendChild(link);
+      ul.appendChild(li);
+    }
+  </script>
 </body>
 </html>

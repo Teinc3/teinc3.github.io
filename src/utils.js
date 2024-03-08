@@ -1,6 +1,5 @@
 const showdown = require('showdown');
 const showdownConfig = {
-  noHeaderId: true,
   disableForced4SpacesIndentedSublists: true,
 };
 
