@@ -37,4 +37,11 @@ function makeHtml(fileContent, options = {}) {
   return htmlContent;
 }
 
-module.exports = makeHtml;
+function getDate(ddmmyyyy) {
+  return new Date(parseInt(ddmmyyyy.substring(4, 8)), parseInt(ddmmyyyy.substring(2, 4)) - 1, parseInt(ddmmyyyy.substring(0, 2)));
+}
+
+module.exports = {
+  makeHtml,
+  getDate
+};

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const makeHtml = require('./makeHtml');
+const { makeHtml, getDate } = require('./utils');
 
 const agendaSourcePath = path.join(__dirname, '../markdowns/agenda');
 const agendaDistPath = path.join(__dirname, '../dist/agenda');
@@ -11,9 +11,12 @@ const templateHtml = fs.readFileSync(path.join(__dirname, '../template.html'), '
 let files = fs.readdirSync(agendaSourcePath);
 files = files.filter(file => file.endsWith('.md'));
 
-// Sort the files according to their last modification date
+// Sort the files according to their creation date (newest first)
 files = files.sort((a, b) => {
-   return fs.statSync(path.join(agendaSourcePath, b)).mtime.getTime() - fs.statSync(path.join(agendaSourcePath, a)).mtime.getTime();
+    // Get the date from the file name
+    const dateA = getDate(a.replace('.md', ''));
+    const dateB = getDate(b.replace('.md', ''));
+    return dateB.getTime() - dateA.getTime();
 });
 
 // Loop through the files in batches of 10
@@ -24,7 +27,6 @@ for (let i = 0; i < files.length; i += 10) {
     const filesList = filesBatch.map(file => {
         const fileSourcePath = path.join(agendaSourcePath, file);
         const fileContent = fs.readFileSync(fileSourcePath, 'utf8');
-        const fileDate = fs.statSync(fileSourcePath).mtime;
         const filePreview = makeHtml(fileContent, {
             removeHtmlTags: true,
             trimCharCount: 100,
@@ -38,7 +40,7 @@ for (let i = 0; i < files.length; i += 10) {
         }
         fs.writeFileSync(path.join(htmlDistPath, 'index.html'), htmlContent);
 
-        return { file, fileDate, filePreview };
+        return { file, filePreview };
     });
 
     // Create a directory for each batch of files and output the HTML correspondingly
@@ -47,10 +49,10 @@ for (let i = 0; i < files.length; i += 10) {
     // Create the HTML content for the page
     const pageHtml = templateHtml.replace('<!--ROOT-->', filesList.map(file => {
         const fileName = file.file.replace('.md', '');
+        const fileDate = getDate(fileName);
         return `<div>
-            <a href="/agenda/${fileName}"><h2>Agenda for ${file.fileDate.toLocaleDateString('en-HK', { timeZone: "Asia/Shanghai" })}</h2></a>
-            <p>${file.filePreview}</p>
-            <a href="/agenda/${fileName}">Read more</a>
+            <a href="/agenda/${fileName}"><h2>Agenda for ${fileDate.toLocaleDateString('en-HK')}</h2></a>
+            <p>${file.filePreview} <a href="/agenda/${fileName}">Read more</a></p>
         </div>`;
     }).join('\n<hr>\n'));
 

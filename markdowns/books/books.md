@@ -33,5 +33,3 @@ I'm probably financially illiterate, and I think this book will help me understa
 
 #### In Search of Excellence: Lessons from America's Best-Run Companies
 Will help with management and leadership skills that I need to develop in the future if I were to make a startup myself.
-
-<hr>
