@@ -1,22 +1,35 @@
 body {
   background-color: #FFFFFF;
   color: #000000;
-  background-image: url("assets/wave_1.gif");
+  background-image: url("wave_1.gif");
 }
 hr {
   border-color: #404040;
+  width: 100%;
 }
 #aContentBox {
-  width: 50%;
+  width: 60%;
   border: 3px solid #FFFFFF;
-  height: 100%;
   background-color: #606060;
   text-align: left;
   margin: auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 1000px) {
   #aContentBox {
     width: 90%;
+  }
+  #aSidebar {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1001px) {
+  #aSidebar {
+    width: 20%;
+    min-width: 150px;
+    max-width: 200px;
   }
 }
 #aHeader {
@@ -30,9 +43,30 @@ hr {
   height: 94px; /* Adjust size as needed */
   width: auto; /* This will maintain the aspect ratio */
 }
+#aContentContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  text-align: center;
+  height: 100%;
+  flex-grow: 1;
+}
+#aSidebar {
+  background-color: #404040;
+  text-align: center;
+  margin: 5px;
+  border: 5px ridge #303030;
+  padding: 20px;
+  flex-grow: 1;
+}
+#aSidebar > ul {
+  text-align: justify;
+  padding-left: 20px;
+}
 #aContent {
   padding: 5px 20px;
   text-align: left;
+  flex-grow: 4;
 }
 #aLargeText1 {
   font-size: 1.2em; /* Adjust size as needed */
@@ -80,6 +114,9 @@ hr {
 }
 #aAlignCenter1 {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 98vh;
 }
 #aAlignCenter2 {
   text-align: center;
