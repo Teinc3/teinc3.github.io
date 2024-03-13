@@ -21,6 +21,9 @@
           break;
         }
       }
+      if (isValidPath) {
+        break;
+      }
       redirectPath = redirectPath.substring(0, redirectPath.lastIndexOf('/')) + '/';
     }
     if (isValidPath) {
