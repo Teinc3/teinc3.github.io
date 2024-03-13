@@ -7,24 +7,24 @@
 </head>
 <body>
   <script>
-    var validPaths = ['/agenda/', '/blogs/'];
+    var validPaths = ['/agenda', '/blogs'];
     var redirectPath = window.location.pathname;
     var isValidPath = false;
     var i;
     while (!isValidPath && redirectPath !== '/') {
+      if (redirectPath.endsWith('/')) {
+        redirectPath = redirectPath.substring(0, redirectPath.length - 1);
+      }
       for (i = 0; i < validPaths.length; i++) {
         if (redirectPath.endsWith(validPaths[i])) {
           isValidPath = true;
           break;
         }
       }
-      if (redirectPath.endsWith('/')) {
-        redirectPath = redirectPath.substring(0, redirectPath.length - 1);
-      }
       redirectPath = redirectPath.substring(0, redirectPath.lastIndexOf('/')) + '/';
     }
     if (isValidPath) {
-      redirectPath += '1';
+      redirectPath += '/1';
     } else {
       redirectPath = '/';
     }
