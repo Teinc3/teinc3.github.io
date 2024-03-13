@@ -121,3 +121,12 @@ hr {
 #aAlignCenter2 {
   text-align: center;
 }
+#aContactIcons {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+#aResponsiveImage {
+  max-width: 100%;
+  height: auto;
+}
