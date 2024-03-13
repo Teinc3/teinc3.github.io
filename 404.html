@@ -18,6 +18,9 @@
           break;
         }
       }
+      if (redirectPath.endsWith('/')) {
+        redirectPath = redirectPath.substring(0, redirectPath.length - 1);
+      }
       redirectPath = redirectPath.substring(0, redirectPath.lastIndexOf('/')) + '/';
     }
     if (isValidPath) {
