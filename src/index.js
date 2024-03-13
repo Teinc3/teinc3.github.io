@@ -20,11 +20,7 @@ require('./blogs.js');
 // Copy all assets to the dist directory
 const assetsPath = path.join(__dirname, '../assets');
 const distAssetsPath = path.join(__dirname, '../dist/assets');
-fs.mkdirSync(distAssetsPath, { recursive: true });
-
-fs.readdirSync(assetsPath).forEach((file) => {
-    fs.copyFileSync(path.join(assetsPath, file), path.join(distAssetsPath, file));
-});
+recursiveCopyDir(assetsPath, distAssetsPath);
 
 // Copy 404.html to the dist directory
 fs.copyFileSync(path.join(__dirname, '../404.html'), path.join(__dirname, '../dist/404.html'));
@@ -32,3 +28,20 @@ fs.copyFileSync(path.join(__dirname, '../404.html'), path.join(__dirname, '../di
 // Quit the process with exit code 0 once the build is done
 console.log('Static build completed.')
 process.exit(0);
+
+function recursiveCopyDir(src, dest) {
+    fs.mkdirSync(dest, { recursive: true });
+
+    var entries = fs.readdirSync(src, { withFileTypes: true });
+
+    entries.forEach(function(entry) {
+        var srcPath = path.join(src, entry.name);
+        var destPath = path.join(dest, entry.name);
+
+        if (entry.isDirectory()) {
+            recursiveCopyDir(srcPath, destPath);
+        } else {
+            fs.copyFileSync(srcPath, destPath);
+        }
+    });
+}

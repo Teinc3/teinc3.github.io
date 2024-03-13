@@ -3,12 +3,12 @@
 <head>
   <title>Teinc3's Homepage</title>
   <link rel="stylesheet" type="text/css" href="/assets/style.css">
-  <link rel="icon" type="image/favicon" href="/assets/favicon.ico">
+  <link rel="icon" type="image/favicon" href="/assets/icons/favicon.ico">
 </head>
 <body>
   <div id="aAlignCenter1">
     <div>
-      <img src="/assets/poorzar.gif" alt="Teinc3===Poorzar" />
+      <img src="/assets/banners/poorzar.gif" alt="Teinc3===Poorzar" />
     </div>
     <div id="aContentBox">
       <div id="aHeader">
@@ -17,7 +17,7 @@
           <h1><abbr title="This page is definitely not inspired by somebody else">Teinc3's Homepage</abbr></h1>
         </div>
         <a href="https://youareanidiot.cc">
-          <img src="/assets/youareanidiot.gif" alt="You_are_an_idiot!" />
+          <img src="/assets/banners/youareanidiot.gif" alt="You_are_an_idiot!" />
         </a>
       </div>
       <div>
@@ -31,14 +31,40 @@
           <h3><a href="/books">Book List</a></h3><hr>
           <h3><a href="/blogs">Blogs</a></h3><hr>
           <h2>Navigation</h2><hr>
-          <!--Hashes here-->
         </div>
         <div id="aContent">
           <!--ROOT-->
         </div>
       </div>
       <hr>
-      <p id="aAlignCenter2">Powered by simple HTML4 and JavaScript</p>
+      <div id="aFooter">
+        <div></div>
+        <p>Powered by simple HTML4 and JavaScript</p>
+        <div id="aContactIcons">
+          <p>Contacts:</p>
+          <a href="https://github.com/Teinc3">
+            <img src="/assets/icons/github_icon.svg" alt="GitHub" />
+          </a>
+          <a href="">
+            <img src="/assets/icons/linkedin_icon.svg" alt="LinkedIn" />
+          </a>
+          <a href="mailto:teinc3@gmail.com">
+            <img src="/assets/icons/mail_icon.svg" alt="Email" />
+          </a>
+          <a href="https://discord.gg/ZByUfCg">
+            <img src="/assets/icons/discord_icon.svg" alt="Discord" />
+          </a>
+          <a href="https://www.reddit.com/user/teinc3/">
+            <img src="/assets/icons/reddit_icon.svg" alt="Reddit" />
+          </a>
+          <a href="https://www.youtube.com/@Teinc3">
+            <img src="/assets/icons/youtube_icon.svg" alt="YouTube" />
+          </a>
+          <a href="https://t.me/teinc3">
+            <img src="/assets/icons/telegram_icon.svg" alt="Telegram" />
+          </a>
+        </div>
+      </div>
     </div>
   </div>
   <script type="text/javascript">
@@ -62,7 +88,7 @@
     }
     for (i = 0; i < h3s.length; i++) {
       var li = document.createElement('li');
-      var link = document.createElement('a');
+      link = document.createElement('a');
       link.href = '#' + h3s[i].id;
       link.appendChild(document.createTextNode(h3s[i].textContent));
       li.appendChild(link);

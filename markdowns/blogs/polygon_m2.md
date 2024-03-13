@@ -53,7 +53,7 @@ I created an ideal combination for M2 Polygons yesterday, and I think it will ab
 
 <abbr title="Demonstration made with ProTLVK">
   <a href="https://wiki.pro-tanki.com/en/ProTLVK">
-    <img src="/assets/m2poly_placement.png" alt="Preferred placement for M2 Polygon Lineup" id="aResponsiveImage">
+    <img src="/assets/pictures/m2poly_placement.png" alt="Preferred placement for M2 Polygon Lineup" id="aResponsiveImage">
   </a>
 </abbr>
 

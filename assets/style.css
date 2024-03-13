@@ -1,7 +1,7 @@
 body {
   background-color: #FFFFFF;
   color: #000000;
-  background-image: url("wave_1.gif");
+  background-image: url("banners/wave_1.gif");
 }
 hr {
   border-color: #404040;
@@ -60,7 +60,7 @@ hr {
   flex-grow: 1;
 }
 #aSidebar > ul {
-  text-align: justify;
+  text-align: left;
   padding-left: 20px;
 }
 #aContent {
@@ -118,13 +118,20 @@ hr {
   flex-direction: column;
   min-height: 98vh;
 }
-#aAlignCenter2 {
-  text-align: center;
+#aFooter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #aContactIcons {
   display: flex;
-  justify-content: center;
-  align-items: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+#aContactIcons img {
+  height: 40px;
+  aspect-ratio: 1;
 }
 #aResponsiveImage {
   max-width: 100%;
