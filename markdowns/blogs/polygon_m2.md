@@ -1,5 +1,5 @@
 ## Guide to M2 Polygon
-*Last updated: 13/03/2024*
+*Last updated: 14/04/2024*
 *Genre: ProTanki*
 
 When my ProTanki alt **Teinc3** got to <abbr title="First Lieutenant">3 diamonds</abbr>,
