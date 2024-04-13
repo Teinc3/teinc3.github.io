@@ -39,17 +39,18 @@ I created an ideal combination for M2 Polygons yesterday, and I think it will ab
   - Isida, Viking, Spark (Healer)
   - Hammer, Mammoth, Premium (Defender)
 
-- Frontal Group:
+- Control Group:
   - Twins, Viking, Rustle
   - Freeze, Viking, Atom
 
-- Control Group:
+- Beatdown Group:
   - Rico, Mammoth, Spark
   - Rico, Mammoth, Urban
 
-- Camping Group (Damage Control):
+- Siege Group (Campers):
   - Thunder, Dictator, Hohloma (Near the bridge above the void)
   - Thunder, Mammoth, Sandstone (Beneath the bridge over the cliff)
+  - Alternatively, you can replace a thunder with a Shaft or Railgun with Viking and it would be just as effective.
 
 <abbr title="Demonstration made with ProTLVK">
   <a href="https://wiki.pro-tanki.com/en/ProTLVK">
@@ -62,71 +63,70 @@ And here is my reasoning:
 
 #### Tunnel Group
 The Tunnel Group will cover the center of the map at all times, and when enemy attacks die down it will recapture the point.
-Enemies usually try to overwhelm the defender but neglect approaching frontal groups.
+Enemies usually try to overwhelm the defender but neglect approaching control groups.
 The defender should attempt to soak up as much damage as possible, but when heavily damaged should retreat into the tunnel.
 It is important that the defender does not die. Otherwise the tunnel will become undefended for a long time (Mammoth moves very slow!)
-After retreating the Frontal and Control groups will sweep up the remaining enemies.
+After retreating the Control and Beatdown groups will sweep up the remaining enemies.
 
 The choice of Hammer is to counter enemy Freezes/Fires which usually have weaker hulls and have paints that do not protect against Hammer.
 Good hammer protection is only found in Rhino and Atom - which do not protect against Ricos and Thunder.
-This allows the Control and Camping groups to destroy them easily.
+This allows the Beatdown and Siege groups to destroy them easily.
 Its strong recoil can also flip enemy tanks attacking from the tunnel entrance.
 
 Mammoth blocks melee enemies from entering the tunnel and damaging the Isida.
 The healer equips Spark so that enemy Ricos cannot damage the Isida effectively through bouncing their shots.
 
-#### Frontal Group
-The Frontal Group assists the Tunnel Group by attacking enemies that are currently busy attacking the Tunnel defender.
-They can also assist the Control group in clearing out enemy camping groups if the point is not being attacked.
+#### Control Group
+The Control Group assists the Tunnel Group by attacking enemies that are currently busy attacking the Tunnel defender.
+They can also assist the Beatdown group in clearing out enemy siege groups if the point is not being attacked.
 
-Frontal Groups usually have medium hulls and can move quickly to the center of the map and help hold the point from enemies.
+Control Groups usually have medium hulls and can move quickly to the center of the map and help hold the point from enemies.
 They do not need more armor because they are not the main targets of enemy attacks - the Tunnel Group is.
 
 Freeze is also highly effective in slowing down enemy tanks (e.g. Ram) and preventing them from approaching the center.
 At the center, it should gain a good position to simultaneously damage multiple enemies using its cone of splash damage.
-Whenever the Tunnel defender retreats, the attackers should have been frozen and fail to respond to the frontal group.
+Whenever the Tunnel defender retreats, the attackers should have been frozen and fail to respond to the control group.
 Then, together with the defender, they recapture the point.
 
 Twins is much suited on Viking M2 than on Mammoth M2 (Titan M2 is a joke, but M3 is another story)
 because of its relatively lower range and stability.
 A twins user may want to equip spark protection instead if they find themselves consistently targeted by enemy Ricos.
 
-#### Control Group
-The Control Group destroys enemy camping groups and tunnel groups (if any), and weakens enemy frontal groups.
+#### Beatdown Group
+The Beatdown Group destroys enemy siege groups and tunnel groups (if any), and weakens enemy control groups.
 
-Ricochets have high damage output and decent range, and they can target the enemy Frontal Group from a distance.
+Ricochets have high damage output and decent range, and they can target the enemy Control Group from a distance.
 Shots do not need to be accurately aimed at the center of the map, because of the bouncing effect.
-Vikings have less health and can be taken down even if Spark is equipped,
-with some help from either the Camping or Tunnel Group.
+Vikings have less health and can be taken down even if Spark is equipped with some help from either the Siege or Tunnel Group.
 
-Control group mammoths do not need to go to the center of the map.
+Beatdown group mammoths do not need to go to the center of the map.
 Instead, they can strategically position themselves near choke points to block enemy tanks from reaching the center.
-They can also provoke fights with enemy frontal groups to distract them from attacking the center.
+They can also provoke fights with enemy control groups to distract them from attacking the center.
 
-If an enemy tunnel group is being set up, the control group should focus the Isida if it does not have Spark protection.
+If an enemy tunnel group is being set up, the beatdown group should focus the Isida if it does not have Spark protection.
 Aim at the sides of the tunnel and the projectiles will bounce off the walls and hit the Isida.
 Otherwise, try to concentrate all shots on the defender.
 If the defender retreats, use the bouncing effect to deal the final blow.
 
-Control group ricos should try to block enemy campers with their hulls or knock off their aim,
-so that they cannot threaten the frontal group when they are busy defending from a swarm attack.
+Beatdown group ricos should try to block enemy campers with their hulls or knock off their aim,
+so that they cannot threaten the control group when they are busy defending from a swarm attack.
 This also deals damage to enemy campers, unless they have rustle, which is usally rare.
 
-#### Camping Group
-The camping group uses splash damage to weaken and destroy overwhelming point pushes by the enemy.
+#### Siege Group
+The siege group uses splash damage to weaken and destroy overwhelming point pushes by the enemy.
 Usually, an overwhelming point push involves around 3 or more enemy tanks clustering at the center.
 These pushes are very vulnerable to thunder's splash damage,
 and so the thunders should try to splash every enemy at the center.
 With 2 thunders, all enemies can be neutralized in around 2-3 shot cycles.
 
-Thunders may act as a less-effective control group targeting individual enemies if the point is not being attacked,
+Thunders may act as a less-effective beatdown group targeting individual enemies if the point is not being attacked,
 but it must redirect its shots towards the center whenever an attack is commencing there.
 
 The thunder near the bridge above the void should be equipped with Hohloma.
 Freezes approaching and enemy ricos shooting from the center don't deal too much damage.
 The choice of Dictator rather than Viking is because of its higher height,
 which allows it to rock its hull and shoot down at the entrance of the tunnel.
-This can assist the defender in cleaning up enemy frontal groups aiming at the tunnel.
+This can assist the defender in cleaning up enemy control groups aiming at the tunnel.
 
 ### Smart moves
 - There is no need to attack an enemy mammoth if it is not close to the center of the map and if you can prioritize other targets.
