@@ -27,6 +27,8 @@ function makeHtml(fileContent, options = {}) {
 
   if (removeHtmlTags) {
     htmlContent = htmlContent.replace(/<[^>]*>?/gm, '');
+    htmlContent = htmlContent.replace(/<\s*script[^>]*>/gi, '');
+    htmlContent = htmlContent.replace(/<\/\s*script\s*>/gi, '');
   }
 
   if (trimCharCount) {
