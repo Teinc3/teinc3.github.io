@@ -3,11 +3,6 @@
 '05 Hongkonger that is equally bad at everything
 <img id="aEmoji1" src="/assets/emojis/omega_chair.gif" alt="Omega_Wheelchair_Emoji">
 
-Currently studying Applied AI at HKU but planning to leave, because STEM people have no future here.
-I wish to create a startup, but have no idea what it will be about.
-Maybe sth related to AI since it's pretty fire recently.
-Creativity is the only path forward in a world where everything is automated anyways.
-
 Have an interest in most things but can't actually be competent in any of them
 <img id="aEmoji2" src="/assets/emojis/pepe_sadge.png" alt="Pepe_sadge">
 
