@@ -6,7 +6,7 @@ Tomorrow is finally the day we've been waiting so long for, the day of the 2024 
 Donald Trump is now trying on his 3rd attempt to win the election, and standing up against him is Kamala Harris.
 But maybe now it's the time to retire this soon-to-be 80 year old convicted felon and let the first Black-(Indian?)-Female President take the stage.
 
-Ppersonally, I have nothing against Donald trump, and I even think he was a president that has, to some degree, done good to the country.
+Personally, I have nothing against Donald trump, and I even think he was a president that has, to some degree, done good to the country.
 There is obviously a lot of negative news coverage about him by the mainstream media, which may skew the public's perception of him.
 In fact, I do even have sympathies for him, as the Hunter Biden laptop story was censored massively by the FBI and could definitely have altered the outcome of the 2020 election,
 if we assume that the January 6th events wouldn't have happened with a Trump victory.
