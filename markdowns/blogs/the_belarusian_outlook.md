@@ -1,5 +1,6 @@
 # The Belarusian Outlook
-*Last updated: 29/07/2025*
+*First published: 29/07/2025*
+*Last updated: 30/11/2025*
 *Genre: Identity*
 
 It's no secret that I am quite interested in Eastern European geography and culture.
@@ -30,6 +31,5 @@ And I'm sure that as one of the most educated and intelligent people in the worl
 Belarusians would also be keen on learning other languages and preserving cultures in the face of adversity.
 
 If people from Belarus are not as skeptical of Asians as people from the anglosphere world are - then I might just perhaps,
-make some friends and participate in the dating pool there. I'm not sure how that will work though, as I do think I'm a bit of
-an Incel. Perhaps it could just be a location issue, I have no idea. But ultimately it is pure speculation for now,
-even as I highly admire the intelligence, beauty and desire for independence that the people of Belarus exhibit.
+make some friends there, even though I have completely no clue how language barriers may affect such an experience.
+But ultimately it is pure speculation for now, even as I highly admire the intelligence and resilience that Belarusians exhibit.
