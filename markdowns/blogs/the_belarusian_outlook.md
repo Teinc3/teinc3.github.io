@@ -1,7 +1,7 @@
 # The Belarusian Outlook
 *First published: 29/07/2025*
 *Last updated: 30/11/2025*
-*Genre: Identity*
+*Genre: Culture*
 
 It's no secret that I am quite interested in Eastern European geography and culture.
 Playing Tanki Online when I was 10, I memorised the entire cyrillic alphabet because I wanted to understand what the woman 

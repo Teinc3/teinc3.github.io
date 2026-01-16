@@ -1,9 +1,10 @@
 ## Reading List
-*Last Updated: April 14, 2024*
+*Last Updated: January 16, 2026*
 
 ### Currently Reading
 
-None...
+None... And no plans to start any new books soon.
+Maybe in the future I'll list a few Russian books that I'm reading.
 
 ### Completed
 

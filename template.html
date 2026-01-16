@@ -68,31 +68,41 @@
     </div>
   </div>
   <script type="text/javascript">
-    var headers = document.getElementById('aContent').getElementsByTagName('h2');
-    var h3s = document.getElementById('aContent').getElementsByTagName('h3');
+    var headers = document.querySelectorAll('#aContent h2, #aContent h3');
     var sidebar = document.getElementById('aSidebar');
-    var ul;
-    var i;
-    for (i = 0; i < headers.length; i++) {
-      var h3 = document.createElement('h3');
-      var link = document.createElement('a');
-      link.href = '#' + headers[i].id;
-      link.appendChild(document.createTextNode(headers[i].textContent));
-      h3.appendChild(link);
-      if (i !== 0) {
-        sidebar.appendChild(document.createElement('hr'));
+    var currentUl;
+    var hasH2 = false;
+    
+    for (var i = 0; i < headers.length; i++) {
+      var header = headers[i];
+      if (header.tagName.toLowerCase() === 'h2') {
+        if (hasH2) {
+          sidebar.appendChild(document.createElement('hr'));
+        }
+        hasH2 = true;
+        
+        var h3 = document.createElement('h3');
+        var link = document.createElement('a');
+        link.href = '#' + header.id;
+        link.appendChild(document.createTextNode(header.textContent));
+        h3.appendChild(link);
+        sidebar.appendChild(h3);
+        
+        currentUl = document.createElement('ul');
+        sidebar.appendChild(currentUl);
+      } else {
+        // h3
+        if (!currentUl) {
+          currentUl = document.createElement('ul');
+          sidebar.appendChild(currentUl);
+        }
+        var li = document.createElement('li');
+        var link = document.createElement('a');
+        link.href = '#' + header.id;
+        link.appendChild(document.createTextNode(header.textContent));
+        li.appendChild(link);
+        currentUl.appendChild(li);
       }
-      sidebar.appendChild(h3);
-      ul = document.createElement('ul');
-      sidebar.appendChild(ul);
-    }
-    for (i = 0; i < h3s.length; i++) {
-      var li = document.createElement('li');
-      link = document.createElement('a');
-      link.href = '#' + h3s[i].id;
-      link.appendChild(document.createTextNode(h3s[i].textContent));
-      li.appendChild(link);
-      ul.appendChild(li);
     }
   </script>
 </body>

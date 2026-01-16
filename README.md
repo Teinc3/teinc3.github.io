@@ -1,7 +1,7 @@
 # teinc3.github.io
 
 <p align="center">
-  <a href="https://github.com/Teinc3/teinc3.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/Teinc3/teinc3.github.io/actions/workflows/pages/pages-build-deployment/badge.svg" alt="Build and Publish to GitHub Pages"></a>
+  <a href="https://github.com/Teinc3/teinc3.github.io/actions/workflows/deploy.yml"><img src="https://github.com/Teinc3/teinc3.github.io/actions/workflows/deploy.yml/badge.svg" alt="Deploy to GitHub Pages"></a>
 </p>
 
 <hr/>

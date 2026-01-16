@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const { makeHtml, getDate } = require('./utils');
+const { makeHtml, getDate, injectPagination } = require('./utils');
+
+const ARTICLES_PER_PAGE = 10;
 
 const agendaSourcePath = path.join(__dirname, '../markdowns/agenda');
 const agendaDistPath = path.join(__dirname, '../dist/agenda');
@@ -19,17 +21,18 @@ files = files.sort((a, b) => {
     return dateB.getTime() - dateA.getTime();
 });
 
-// Loop through the files in batches of 10
-for (let i = 0; i < files.length; i += 10) {
-    const filesBatch = files.slice(i, i + 10);
+// Loop through the files in batches of ARTICLES_PER_PAGE
+for (let i = 0; i < files.length; i += ARTICLES_PER_PAGE) {
+    const filesBatch = files.slice(i, i + ARTICLES_PER_PAGE);
 
-    // Create a list of the files and get their properties.
     const filesList = filesBatch.map(file => {
         const fileSourcePath = path.join(agendaSourcePath, file);
         const fileContent = fs.readFileSync(fileSourcePath, 'utf8');
-        const filePreview = makeHtml(fileContent, {
+        // Remove title and date lines for cleaner preview
+        const previewText = fileContent.replace(/^#.*$|^[\*_]*Date:.*$/gm, '');
+        const filePreview = makeHtml(previewText, {
             removeHtmlTags: true,
-            trimCharCount: 100,
+            trimCharCount: 170,
         });
         
         // Create the HTML file for each markdown file
@@ -44,17 +47,23 @@ for (let i = 0; i < files.length; i += 10) {
     });
 
     // Create a directory for each batch of files and output the HTML correspondingly
-    const pageLink = path.join(agendaDistPath, (i / 10 + 1).toString());
+    const pageLink = path.join(agendaDistPath, (i / ARTICLES_PER_PAGE + 1).toString());
 
     // Create the HTML content for the page
-    const pageHtml = templateHtml.replace('<!--ROOT-->', filesList.map(file => {
+    let pageHtml = templateHtml.replace('<!--ROOT-->', filesList.map(file => {
         const fileName = file.file.replace('.md', '');
         const fileDate = getDate(fileName);
         return `<div>
-            <a href="/agenda/${fileName}"><h2>Agenda for ${fileDate.toLocaleDateString('en-HK')}</h2></a>
+            <a href="/agenda/${fileName}"><h2>Agenda for ${fileDate.toLocaleDateString('en-GB')}</h2></a>
             <p>${file.filePreview} <a href="/agenda/${fileName}">Read more</a></p>
         </div>`;
     }).join('\n<hr>\n'));
+
+    // Inject pagination into sidebar
+    const currentPage = i / ARTICLES_PER_PAGE + 1;
+    const totalPages = Math.ceil(files.length / ARTICLES_PER_PAGE);
+    
+    pageHtml = injectPagination(pageHtml, currentPage, totalPages, 'agenda', 'Agendas');
 
     if (!fs.existsSync(pageLink)) {
         fs.mkdirSync(pageLink, { recursive: true });

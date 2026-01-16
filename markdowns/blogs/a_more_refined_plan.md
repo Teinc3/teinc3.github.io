@@ -8,7 +8,7 @@ After a month of holiday giving me clear thoughts, I've come up with a more refi
 ## Overview
 Oxford Engineering takes 4 years to complete, and I'm currently only a third of the way through my second year.
 Most big corporations only offer internships to penultimate year students, which would be second year students for Bachelors Degrees. Unfortunately, this means third year students for Integrated Masters, so even if I were to apply this summer, I wouldn't be eligible.
-Sure, some of them may look for extremely talented ~~antepenultimate~~ (actually is a word wtf) students,
+Sure, some of them may look for extremely talented <s>antepenultimate</s> (actually is a word wtf) students,
 but you need a really good CV to begin with, and I don't think mine is quite there yet. So it'll be lost opportunity cost.
 
 Even if I'm considered "top-notch" for tech internships, 
@@ -42,8 +42,8 @@ It's not really possible for me to create a shiny CV in a month so I'll just spe
 
 #### Uni Work
 I actually believe that I'm only spending 40% of the time in revising compared to the top Engineering bro in our college.
-If I can get it up to maybe 60%, that's probably enough to surpass his average. Any more would give diminishing returns imo.
-Exams would start in TT week 4 (early June or late May, don't remember), so I have 4 months to grind this thing up, which is surprisingly, a lot if I remain consistent in what I do.
+If I can get it up to around 60%, I think it's probably enough to surpass his average. Any more would give diminishing returns IMO.
+Exams would start in TT week 4 (early June or late May, don't remember), so I have 4 months to grind this thing up, which is surprisingly a lot if I remain consistent in what I do.
 
 Here's the planned averages for each paper:
 - Mathematics (A1): Aim for 85%. Last year i somehow got 91% in my prelims, don't ask me why.
@@ -104,7 +104,7 @@ I just have to make sure I meet the residency requirements.
 (4 years should be enough for a clearance - but if they ask for 5, I can still work in some non-confidential projects until I hit that mark)
 
 I'll also try to elevate my Russian to early B2 by the end of the summer. 
-Understanding Russian better is always a plus for the FDSE role, since you might be required to work with data related to Russia 
+Understanding Russian better is always a plus for the role, since you might be required to work with data related to Russia 
 (or countries that can speak and conduct business in Russian, such as Ukraine and Kazakhstan).
 
 Another plus is that I'll be able to display my abilities to maintain working efficiency while remotely deployed in a foreign country.
@@ -113,7 +113,7 @@ Another plus is that I'll be able to display my abilities to maintain working ef
 #### Leetcode Prep
 I'm pretty sure my CS friends would not doubt my ability to solve medium leetcode problems;
 I also display knowledge of DSA in certain scripts that I write
-(Apparently they say that the TT.io opening search algorithm I made entirely by myself incorporates Bitmasking, BFS, 
+(Apparently the Terri opening search engine I made already incorporates Bitmasking, BFS, 
 Alpha-Beta Pruning and Dynamic Programming, which is pretty neat. Didn't really know a lot of these terms previously).
 
 However, solving these problems quickly, understanding the technical terms and knowing the optional methods to solve them is a different story.

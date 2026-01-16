@@ -59,6 +59,15 @@ hr {
   padding: 20px;
   flex-grow: 1;
 }
+#aSidebar a:link {
+  color: #1178bc;
+}
+#aSidebar a:visited {
+  color: #440a70;
+}
+#aSidebar a:hover {
+  color: #ffffff;
+}
 #aSidebar > ul {
   text-align: left;
   padding-left: 20px;

@@ -42,7 +42,24 @@ function getDate(ddmmyyyy) {
   return new Date(parseInt(ddmmyyyy.substring(4, 8)), parseInt(ddmmyyyy.substring(2, 4)) - 1, parseInt(ddmmyyyy.substring(0, 2)));
 }
 
+function injectPagination(htmlContent, currentPage, totalPages, basePath, labelText) {
+  let paginationHtml = '';
+
+  if (currentPage > 1) {
+      paginationHtml += `<h3><a href="/${basePath}/${currentPage - 1}">View Newer ${labelText}</a></h3><hr>`;
+  }
+  if (currentPage < totalPages) {
+      paginationHtml += `<h3><a href="/${basePath}/${currentPage + 1}">View Older ${labelText}</a></h3><hr>`;
+  }
+
+  if (paginationHtml) {
+      return htmlContent.replace('<h2>Navigation</h2><hr>', `<h2>Other Articles</h2><hr>${paginationHtml}<h2>Navigation</h2><hr>`);
+  }
+  return htmlContent;
+}
+
 module.exports = {
   makeHtml,
-  getDate
+  getDate,
+  injectPagination
 };
