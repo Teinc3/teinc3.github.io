@@ -25,6 +25,11 @@ recursiveCopyDir(assetsPath, distAssetsPath);
 // Copy 404.html to the dist directory
 fs.copyFileSync(path.join(__dirname, '../404.html'), path.join(__dirname, '../dist/404.html'));
 
+// Copy .well-known to the dist directory
+const wellKnownPath = path.join(__dirname, '../.well-known');
+const distWellKnownPath = path.join(__dirname, '../dist/.well-known');
+recursiveCopyDir(wellKnownPath, distWellKnownPath);
+
 // Quit the process with exit code 0 once the build is done
 console.log('Static build completed.')
 process.exit(0);
