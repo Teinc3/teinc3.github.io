@@ -4,9 +4,12 @@
 <div>
 <p>I enjoy typing a few paragraphs of text occassionally when I'm bored.</p>
 <p>My typing average is around 135 WPM. On some days i may break 150 consistently while on some days I may struggle to keep it above 125.</p>
-<p>I mainly play typeracer because you get to race against other people.</p>
-<p>Here is my typestats profile: <a href="https://typingstats.com/profile/teinc3">https://typingstats.com/profile/teinc3</a></p>
-<p>As a side note, I've also started typing in Russian, entirely for fun. Honestly puzzles me why I didn't try speedtyping Chinese instead. Currently my speed keeps fluctuating as I'm still learning the layout, but I hope that in a few months I'll be able to get a consistent 100+ WPM there.</p>
+<p>I mainly play typeracer because you get to race against other people. Here is my typestats profile:
+<a href="https://typingstats.com/profile/teinc3">https://typingstats.com/profile/teinc3</a></p>
+<p>As a side note, I've also started typing in Russian (ЙЦУКЕН) but entirely for fun. 
+Honestly puzzles me why I didn't try speedtyping Chinese (倉頡) instead.</p>
+<p>Currently my speed keeps fluctuating as I'm still learning the layout, 
+but I hope that in a few months I'll be able to get a consistent 100+ WPM there.</p>
 </div>
 <a href="https://data.typeracer.com/pit/profile?user=vkij&ref=badge" target="_top"><img src="https://data.typeracer.com/misc/badge?user=vkij" border="0" alt="TypeRacer.com scorecard for user vkij"/></a>
 </div>
