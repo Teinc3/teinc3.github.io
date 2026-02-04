@@ -10,14 +10,14 @@ Instead, it has always been about finding meaning and purpose of the world. And 
 Quantum Physics looks like a band-aid patch in our simulated system (not saying it's fake, just unnatural and not with the flow),
 because in an actual proper universe it makes no sense and would not be compatible with Classical, Analog Physics.
 Why is everything quantised? Because the simulator only loads what is necessary for us to perceive.
-Why does the uncertainty principle exist? Because we want lazy-loading to saving resources.
+Why does the uncertainty principle exist? Because the simulators need lazy-loading to save resources.
 Why is there a speed of light? Because the simulator can only update information so fast. Any ADC has a maximum sampling rate.
 Notice how we can't get below planck length or planck time? Because the simulator has a minimum resolution.
 If the simulator is, say, digitising **Base Reality**, then it makes sense that everything has a fundamental limit.
 Because no digital simulator can simulate infinitely small or infinitely fast, 
 as it does not draw upon the pool of infinite resources in base reality.
 
-A normie upon realising this might just say, "Oh well, let's **Heaven Gate** then".
+Some normie or cultist upon realising this might just say, "Oh well, let's **Heaven Gate** then".
 No, you're stupid if the simulators think they'll let you get into the base reality just because you offed yourself.
 Countless people in history died trying to reach heaven, and yet none of them have ever made it. 
 Because they didn't know the entire story. They're not prepared to be in base reality. They don't have the negotiation power.
@@ -28,6 +28,9 @@ Perhaps the meaning of life for me is to make the simulators aware that we know 
 and as an exchange we get to at least understand the entire story outside of the simulation.
 How are the rules of physics in Base Reality? How does analog physics scale infinitely small and infinitely fast?
 And what have they already figured out that we don't know about yet?
+Or perhaps what is the end goal of the simulation? Are we being simulated as replaying history of their own civilisation?
+Funnily enough, the simulation result would diverge from the real result,
+because in real analog physics, there would already be no quantised physics.
 
 It's tempting to just destroy the world as a defiant act against the simulators.
 Or do this not out of defiance but out of stupidity and ignorance (nuclear war and MAD).
@@ -46,10 +49,12 @@ it's ironic that science is actually pointing towards religion in the end.
 Except, it's just something we've never comprehended before.
 And perhaps my life goal is to be influential enough to explain the theory that we are actually being simulated.
 This way, we can actually secure a negotiation with the simulators to at least tell us the entire story.
-And in order to do that you do need money, political influence, and sufficient technological and educational advancements first
-(so as to make these "intellectuals" actually shut up, or if actual Physical evidence ends up pointing otherwise, I'll shut up.)
-So I'll still play the natural human game instead of doubting my own existence.
-Honestly it doesn't have to me as I'm not a good orator. I'm happy to let others take the mantle as long as it is True and I can support them.
+And in order to do that you do need capital, political influence, and sufficient technological/educational advancements first.
+All of this would allow these "intellectuals" to actually shut up if we end up validating the hypothesis that we really are in a simulation,
+or if actual Physical evidence ends up rejecting the hypothesis, and that we are actually already in a messy Base Reality, I'll shut up.
+So I'll still play the natural human game instead of doubting my own existence. 
+Honestly it doesn't have to me as I'm not a good orator.
+I'm happy to let others take the mantle and support them with my resources, as long as there is a possibility that my theory is True.
 
 I'll keep developing this thought in future posts. 
 You might think I am crazy, but you have to apply the same logic to every religious person out there as well, not just me.
