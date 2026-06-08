@@ -16,6 +16,7 @@ require('./home.js');
 require('./agenda.js');
 require('./books.js');
 require('./blogs.js');
+require('./thoughts.js');
 
 // Copy all assets to the dist directory
 const assetsPath = path.join(__dirname, '../assets');

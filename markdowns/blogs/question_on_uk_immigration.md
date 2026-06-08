@@ -43,7 +43,7 @@ It's entirely possible that a Restore Britain government in 2029 screws equally 
 
 It's true that I prefer to retain in England, at least until the 30s. The weather is great, 
 and London will still retain a competitive edge for opportunities and networking
-(reference my other [/blogs/welcome_singapore](article) for my rationale behind this).
+(reference my other [article](/blogs/welcome_singapore) for my rationale behind this).
 I would expect any sort of big company I'm working under to redeploy me to other countries
 (provided that I am lucky to receive an offer to work at Palantir or other big tech - 
 it's definitely possible and expected to discuss relocation to the US, Poland, or even to Asia).

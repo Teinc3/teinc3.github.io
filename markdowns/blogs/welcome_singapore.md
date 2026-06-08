@@ -1,4 +1,4 @@
-# Welcome, Singapore
+## Welcome, Singapore
 *Last updated: 06/11/2025*
 *Genre: Geopolitics*
 
