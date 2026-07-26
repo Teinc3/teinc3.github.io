@@ -1,8 +1,16 @@
 ## Reading List
-*Last Updated: January 20, 2026*
+*Last Updated: July 26, 2026*
 
 ### Currently Reading
-Too busy with Uni work LOL, imaging having the time to read a book.
+#### "Blood and Ruins" by Richard J. Overy
+Recommended by [this video](https://www.youtube.com/watch?v=VuAG75q3h9I&t=1332s)
+(in chinese, but with English subtitles) that outlines a hypothesis about how the 
+"Expansion" nature of fascism originates from newly-developed great powers missing out on
+early stage colonialism and requiring explicit millitarism and aggression on neighboring 
+countries for "living space" that can no longer be secured from overseas colonies. 
+
+Seems to be really interesting, and is also coincidentally available in my college's library,
+so I'll have a look, especially now that I do have a lot more time on my hands.
 
 ### Plan to Read
 
@@ -21,12 +29,10 @@ I've also been in management and administration for multiple online games, and I
 but I'm mostly too lazy to actually do the management work needed. I'd rather build a system to manage them automatically.
 So I wonder how far I can go up the hierarchy before I reach my level of incompetence.
 
-I wonder what would happen when I talk about this theory in my EEM application essay (Engineering, Entrepreneurship, and Management).
-I suppose that because it's niche enough, my essay might stand out a bit more, 
-and they might actually think I know something about management.
-Gotta know how hard it is to even be selected for that program (16 spots out of a 185 cohort).
-But <a href="/blogs/a_refined_plan">I think I can make it</a>, we'll see.
-
+*Update*: The book seems to be available only in major Bodleian libraries but I did find one option
+for only a 7 day loan. 7 Days only sounds quite insufficient though, so I'll go through the WW2
+history first and see how fast I can finish it with my available time before deciding whether or
+not to commit.
 
 ### Completed
 
