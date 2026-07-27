@@ -1,10 +1,10 @@
 ## Reading List
-*Last Updated: July 26, 2026*
+*Last Updated: July 27, 2026*
 
 ### Currently Reading
 #### "Blood and Ruins" by Richard J. Overy
 Recommended by [this video](https://www.youtube.com/watch?v=VuAG75q3h9I&t=1332s)
-(in chinese, but with English subtitles) that outlines a hypothesis about how the 
+(in Chinese, but with English subtitles) that outlines a hypothesis about how the 
 "Expansion" nature of fascism originates from newly-developed great powers missing out on
 early stage colonialism and requiring explicit millitarism and aggression on neighboring 
 countries for "living space" that can no longer be secured from overseas colonies. 
@@ -33,6 +33,16 @@ So I wonder how far I can go up the hierarchy before I reach my level of incompe
 for only a 7 day loan. 7 Days only sounds quite insufficient though, so I'll go through the WW2
 history first and see how fast I can finish it with my available time before deciding whether or
 not to commit.
+
+#### "Zero to One: Notes on Startups, Or How to Build the Future" by Peter Thiel and Blake Masters
+Strip aside the partisan dynamics of the two authors (It's unfortunate that I have to even 
+consider declaring this but people online are really sensitive nowadays), I think the theme of the
+book does talk in detail a lot more about the nature of "Horizontal" versus "Vertical" expansion for
+enterprises, as well as the disdain and aggressive avoidance of competition. Rather happy that the
+ideas of  market capture that I've came up with independently do exhibit convergent evolution with
+one of the best minds regarding VC and entrepreneurship. The content would definitely help me
+develop a fully rounded theory of execution in the future.
+
 
 ### Completed
 
