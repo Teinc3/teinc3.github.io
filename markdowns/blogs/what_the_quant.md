@@ -1,5 +1,5 @@
 ## What The Quant
-*Last updated: 06/09/2026*
+*Last updated: 10/09/2026*
 *Genre: Society*
 
 Sometimes I ask myself why do all the cracked nerds around me seem to go into trading.
@@ -18,8 +18,9 @@ And Quantitative finance itself is completely different from traditional investm
 which runs closer to what a VC firm actually does. My instinct (correct me if I'm wrong) is that
 training in macronomic information processing and decision making is more critical in VCs.
 
-The only reason particular goals and just wish to retire early, but then it feels wasted.
+The only reason justifying this career path would be a lack of ambition for early retirement,
+but then it feels like a complete waste of your intellect, brainpower and resources.
 You spent years grinding from HS to Uni to a Trading firm, having earned such a capital leverage,
 then you decide to just let it rot away overtime. But that's probably just a personality thing.
-Or maybe the quant mentality is extremely risk-averse and completely ignores sunken cost,
+Or maybe the quant mentality is extremely risk-averse as well as completely ignoring sunken cost,
 so any grinding in the prior years are simply discarded as non-factors. I guess that's the case!
