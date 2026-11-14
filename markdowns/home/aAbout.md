@@ -5,8 +5,9 @@
 - Version: v21.0.0
 - Manufacturer: Made in Hong Kong
 - Server Location: Europe/Oxford
-- Pronouns: <abbr title="Honestly who cares about pronouns these days smh"><span id="aUnderlineTooltip1">application/json</span></abbr>
-- Protocol: Hates nerds. Implements the following check: <br>
+- Track: Information && Systems Engineering || Entrepreneurship && Management
+- Pronouns: <abbr title="Honestly who cares about pronouns these days smh"><span id="aUnderlineTooltip1">application/json</span></abbr> (They didn't let me add this on pronouns.page, what a bummer. I could have settled for noob/poorjar though)
+- Protocol: Hates nerds, especially smelly CS ones. Implements the following check: <br>
     <code>if (Conf.above_or_equal(user, Algo.isNerd, limit=0.0) && user.nickname !== "Teinc3") {</code><br>
     <code>    user.nerd = true; // Always a nerd, brutal checkmate</code><br>
     <code>}</code><br>
